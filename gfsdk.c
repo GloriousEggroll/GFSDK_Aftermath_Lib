@@ -5,7 +5,7 @@
 #include <windows.h>
 
 int gEngineInitOffset = 0x227F5A;
-BYTE value[] = {0xE8, 0x91, 0x3F, 0x31, 0x03, 0x90};
+BYTE value[] = {0xE8, 0xb1, 0x3a, 0x31, 0x03, 0x90};
 
 DWORD_PTR GetProcessBaseAddress(DWORD processID) {
   DWORD_PTR baseAddress = 0;
